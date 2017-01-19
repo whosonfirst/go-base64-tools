@@ -1,6 +1,6 @@
 # go-base64-tools
 
-A Go package for doing base64 related things
+There are many Go packages for doing base64 related things. This one is ours.
 
 ## Install
 
