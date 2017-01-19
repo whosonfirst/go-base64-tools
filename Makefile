@@ -24,6 +24,7 @@ vendor-deps: deps
 
 bin: 	self
 	@GOPATH=$(GOPATH) go build -o bin/b64e cmd/b64e.go
+	@GOPATH=$(GOPATH) go build -o bin/b64d cmd/b64d.go
 
 fmt:
 	go fmt cmd/*.go
